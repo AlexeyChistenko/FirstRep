@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.ОбменКонтрагентами.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+      <commands>CommonCommand.ОбменКонтрагентами</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20b9543b-75d7-4062-9a21-4dfd652a9048">
+  <name>Задания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Контрагенты</content>
+  <content>DataProcessor.ОбменКонтрагентами</content>
+  <content>CommonCommand.ОбменКонтрагентами</content>
+</mdclass:Subsystem>

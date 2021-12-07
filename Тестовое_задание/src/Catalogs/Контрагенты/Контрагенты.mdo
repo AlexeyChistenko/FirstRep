@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19160927-2fcd-492c-a61e-6975530269f1">
+  <producedTypes>
+    <objectType typeId="7e152d30-665b-49e4-82a0-78d3b9794059" valueTypeId="58e11a73-7150-4240-992a-709e047f3881"/>
+    <refType typeId="b425da96-b65e-4c7b-a5cc-d9b8b4d372c8" valueTypeId="b7e0c7fb-00cf-4e6b-9adc-b34b46961f59"/>
+    <selectionType typeId="ea709632-1ea6-42b5-9a03-6e0c3cbf56b7" valueTypeId="3581ede8-8f99-4a9d-a76a-a969170dbf54"/>
+    <listType typeId="1fcef10e-2355-495d-b853-2fd6e5a8f38a" valueTypeId="8f69afe0-4ccc-4c30-99d8-44f6ee59d3a9"/>
+    <managerType typeId="2bbab5c5-cd5e-4efb-a3f5-7855381b0c0e" valueTypeId="0068e7ce-3650-4102-adaf-15c656c6ca51"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c501f219-bea3-4239-8739-ea5927498dd4">
+    <name>Класс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КлассыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

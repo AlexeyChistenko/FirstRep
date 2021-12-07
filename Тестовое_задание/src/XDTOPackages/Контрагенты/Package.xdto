@@ -1,0 +1,18 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="www.chistenko.ru">
+	<valueType name="Классы" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">ЮрЛицо</enumeration>
+		<enumeration xsi:type="xs:string">ФизЛицо</enumeration>
+		<enumeration xsi:type="xs:string">Неопределено</enumeration>
+	</valueType>
+	<valueType name="Наименование" base="xs:string" variety="Atomic" maxLength="100"/>
+	<valueType name="Код" base="xs:string" variety="Atomic" maxLength="5"/>
+	<objectType name="Контрагенты">
+		<property xmlns:d3p1="www.chistenko.ru" name="Контрагент" type="d3p1:Контрагент" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Контрагент">
+		<property name="Идентификатор" type="xs:string"/>
+		<property xmlns:d3p1="www.chistenko.ru" name="Код" type="d3p1:Код"/>
+		<property xmlns:d3p1="www.chistenko.ru" name="Наименование" type="d3p1:Наименование"/>
+		<property xmlns:d3p1="www.chistenko.ru" name="Класс" type="d3p1:Классы"/>
+	</objectType>
+</package>

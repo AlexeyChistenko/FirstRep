@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c08e439-9cb6-4859-963b-08ae4a7770ac">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="60728d9a-2f17-499e-a8dd-c609e7f9c141"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="aec8b042-ce6d-40b7-8a22-c32bb5fd2590"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="89e92acd-33e8-40a5-813b-ca232454d80f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="69c8d057-aa33-4903-8021-9e57d6ae685c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="67bed992-6ebc-46ca-8990-0bb97497e16a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="318b6356-2d4d-42c5-883b-d7ef7e90e145"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="aa2662fa-b439-4f35-8629-f17976b15eaf"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities/>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="44cbc255-eb2a-4ed2-8851-f4448f0d084e">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Задания</subsystems>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <xDTOPackages>XDTOPackage.Контрагенты</xDTOPackages>
+  <commonCommands>CommonCommand.ОбменКонтрагентами</commonCommands>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <enums>Enum.КлассыКонтрагентов</enums>
+  <dataProcessors>DataProcessor.ОбменКонтрагентами</dataProcessors>
+</mdclass:Configuration>
