@@ -29,6 +29,7 @@
   </languages>
   <subsystems>Subsystem.Задания</subsystems>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбщийМодульЧистенко</commonModules>
   <xDTOPackages>XDTOPackage.Контрагенты</xDTOPackages>
   <commonCommands>CommonCommand.ОбменКонтрагентами</commonCommands>
   <catalogs>Catalog.Контрагенты</catalogs>
